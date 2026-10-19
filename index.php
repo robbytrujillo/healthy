@@ -251,7 +251,7 @@ $totalTahunIni = $conn->query($queryTahunIni)->fetch_assoc()['total_tahun'];
         <!-- Search Box -->
         <form method="GET" class="search-box">
             <div class="input-group mb-4">
-                <input type="text" name="nama_siswa" class="form-control" placeholder="Cari siswa sakit..." required>
+                <input type="text" name="nama_siswa" class="form-control" placeholder="Cari siswi sakit..." required>
                 <div class="input-group-append">
                     <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
                 </div>
@@ -342,7 +342,7 @@ $totalTahunIni = $conn->query($queryTahunIni)->fetch_assoc()['total_tahun'];
                     <div class="card bg-light mb-3 shadow-sm rounded-lg border-0">
                         <div class="card-body text-center">
                             <img src="assets/images/student.svg" style="height: 320px" class="cover img-fluid">
-                            <h5 class="mt-3 mb-3">Data Siswa</h5>
+                            <h5 class="mt-3 mb-3">Data Siswi</h5>
                             <a href="siswa-user.php"
                                 class="btn btn-outline-success btn-block font-weight-bold rounded-pill">Lihat Data</a>
                         </div>
@@ -353,7 +353,7 @@ $totalTahunIni = $conn->query($queryTahunIni)->fetch_assoc()['total_tahun'];
                     <div class="card bg-light mb-3 shadow-sm rounded-lg border-0">
                         <div class="card-body text-center">
                             <img src="assets/images/sick.svg" style="height: 320px" class="cover img-fluid">
-                            <h5 class="mt-3 mb-3">Siswa Sakit</h5>
+                            <h5 class="mt-3 mb-3">Siswi Sakit</h5>
                             <a href="siswa-sakit.php"
                                 class="btn btn-outline-success btn-block font-weight-bold rounded-pill">Lihat Data</a>
                         </div>
@@ -381,8 +381,8 @@ $totalTahunIni = $conn->query($queryTahunIni)->fetch_assoc()['total_tahun'];
 
             <div class="col-md-6 col-12 mb-2 mb-md-0">
                 <h4 class="font-weight-bold text-center text-md-left">
-                    <!--📈 Grafik Siswa Sakit-->
-                    Grafik Siswa Sakit
+                    <!--📈 Grafik Siswi Sakit-->
+                    Grafik Siswi Sakit
                 </h4>
             </div>
 
@@ -438,7 +438,7 @@ $totalTahunIni = $conn->query($queryTahunIni)->fetch_assoc()['total_tahun'];
                     <div class="col-md-6 col-12 mb-3 mb-md-0">
                         <h4 class="font-weight-bold text-center text-md-left mb-0">
                             <!--📊 Siswa Yang Sering Sakit-->
-                            Siswa Yang Sering Sakit
+                            Siswi Yang Sakit
                         </h4>
                     </div>
 
@@ -463,7 +463,7 @@ $totalTahunIni = $conn->query($queryTahunIni)->fetch_assoc()['total_tahun'];
                         <div class="card border-0 shadow-sm text-center h-100">
                             <div class="card-body">
                                 <h6 class="text-muted mb-2">
-                                    Total Siswa Sakit Bulan Ini
+                                    Total Siswi Sakit Bulan Ini
                                 </h6>
 
                                 <h2 class="font-weight-bold text-primary mb-1">
@@ -482,7 +482,7 @@ $totalTahunIni = $conn->query($queryTahunIni)->fetch_assoc()['total_tahun'];
                         <div class="card border-0 shadow-sm text-center h-100">
                             <div class="card-body">
                                 <h6 class="text-muted mb-2">
-                                    Total Siswa Sakit Tahun Ini
+                                    Total Siswi Sakit Tahun Ini
                                 </h6>
 
                                 <h2 class="font-weight-bold text-success mb-1">
@@ -680,7 +680,7 @@ $totalTahunIni = $conn->query($queryTahunIni)->fetch_assoc()['total_tahun'];
         data: {
             labels: allLabels.slice(startIndex, startIndex + itemsPerPage),
             datasets: [{
-                label: 'Jumlah Siswa Sakit',
+                label: 'Jumlah Siswi Sakit',
                 data: allData.slice(startIndex, startIndex + itemsPerPage),
                 borderWidth: 2,
                 borderRadius: 10

@@ -226,13 +226,13 @@ function tanggalIndonesia($tanggal) {
                 </a>
             </div>
 
-            <h3 class="text-center mb-4">Daftar Siswa Sakit</h3>
+            <h3 class="text-center mb-4">Daftar Siswi Sakit</h3>
 
             <!-- SEARCH -->
             <div class="d-flex justify-content-end mb-3">
                 <form method="GET" class="form-inline">
                     <div class="input-group">
-                        <input type="text" name="search" class="form-control" placeholder="Cari nama siswa..."
+                        <input type="text" name="search" class="form-control" placeholder="Cari nama siswi..."
                             value="<?= isset($_GET['search']) ? htmlspecialchars($_GET['search']) : '' ?>">
                         <div class="input-group-append">
                             <button type="submit" class="btn btn-outline-secondary"><i
@@ -345,7 +345,7 @@ function tanggalIndonesia($tanggal) {
                 <div class="modal-content">
 
                     <div class="modal-header bg-light">
-                        <h5 class="modal-title">Detail Data Siswa</h5>
+                        <h5 class="modal-title">Detail Data Siswi</h5>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
 
@@ -688,7 +688,7 @@ function tanggalIndonesia($tanggal) {
                     </div>
                     <div class="school-info">
                         <h2>UNIT KESEHATAN SEKOLAH (UKS)</h2>
-                        <p>Laporan Pemeriksaan Kesehatan Siswa</p>
+                        <p>Laporan Pemeriksaan Kesehatan Siswi</p>
                     </div>
                 </div>
 
@@ -700,7 +700,7 @@ function tanggalIndonesia($tanggal) {
 
             <!-- TITLE -->
             <div class="report-title">
-                <h3>HASIL PEMERIKSAAN SISWA</h3>
+                <h3>HASIL PEMERIKSAAN SISWI</h3>
                 <p>Dokumen Resmi Pemeriksaan Kesehatan</p>
             </div>
 
@@ -708,7 +708,7 @@ function tanggalIndonesia($tanggal) {
             <div class="invoice-box">
 
                 <div class="info-card">
-                    <h5>Data Siswa</h5>
+                    <h5>Data Siswi</h5>
 
                     <div class="info-line">
                         <div class="info-label">NIS</div>
