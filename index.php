@@ -280,7 +280,7 @@ $totalTahunIni = $conn->query($queryTahunIni)->fetch_assoc()['total_tahun'];
 
                     echo "<div class='col-12'>
                             <div class='alert alert-success'>
-                                <strong>Siswa \"$nama_siswa\"</strong> ditemukan
+                                <strong>Siswi \"$nama_siswa\"</strong> ditemukan
                             </div>
                         </div>";
 
